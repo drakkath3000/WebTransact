@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SW Vaisseaux</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+	  <audio autoplay="true" src="Star%20Wars%20Main%20Theme.mp3"></audio>
+  </head>
+  <body>
+
+    <!-- page content -->
+	<h1>Générateur de vaisseaux Star Wars</h1>
+	
+	<button onclick = "getData()">Générer un nouveau vaisseau</button>
+	
+	<!-- Exemple avec le vaisseau #10 -->
+	<!-- https://swapi.co/api/starships/10/ -->
+	<h2>Informations</h2>
+	<table>
+		<tr>
+			<th>Nom</td>
+			<td id="ShipName"></td>
+		</tr>
+		<tr>
+			<th>Modèle</td>
+			<td id="ShipModel"></td>
+		</tr>
+		<tr>
+			<th>Classe</td>
+			<td id="ShipClass"></td>
+		</tr>
+		<tr>
+			<th>Fabricant</td>
+			<td id="ShipManufacturer"></td>
+		</tr>
+		<tr>
+			<th>Coût (en crédits)</td>
+			<td id="ShipCost"></td>
+		</tr>
+		<tr>
+			<th>Taille (en mètres)</td>
+			<td id="ShipSize"></td>
+		</tr>
+		<tr>
+			<th>Nombre de membres de l'équipage</td>
+			<td id="ShipMembers"></td>
+		</tr>
+		<tr>
+			<th>Nombre de passagers</td>
+			<td id="ShipPassengers"></td>
+		</tr>
+		<tr>
+			<th>Capacité de chargement maximale (en kg)</td>
+			<td id="ShipMaxLoad"></td>
+		</tr>
+	</table>
+	
+	
+	<h2>Pilotes</h2>
+	<table>
+		<tr>
+			<th>Nom</th>
+			<th>Genre</th>
+		</tr>
+		<tr>
+			<td>Chewbacca</td>
+			<td>male</td>
+		</tr>
+		<tr>
+			<td>Han Solo</td>
+			<td>male</td>
+		</tr>
+		<tr>
+			<td>Lando Calrissian</td>
+			<td>male</td>
+		</tr>
+		<tr>
+			<td>Nien Nunb</td>
+			<td>male</td>
+		</tr>
+	</table>
+	
+	<h2>Films</h2>
+	<table>
+		<tr>
+			<th>Titre</th>
+			<th>Directeur</th>
+			<th>Date de sortie</th>
+		</tr>
+		<tr>
+			<td>The Empire Strikes Back</td>
+			<td>Irvin Kershner</td>
+			<td>1980-05-17</td>
+		</tr>
+		<tr>
+			<td>The Force Awaken</td>
+			<td>J. J. Abrams</td>
+			<td>2015-12-11</td>
+		</tr>
+		<tr>
+			<td>Return of the Jedi</td>
+			<td>Richard Marquand</td>
+			<td>1983-05-25</td>
+		</tr>
+		<tr>
+			<td>A New Hope</td>
+			<td>George Lucas</td>
+			<td>1977-05-25</td>
+		</tr>
+	</table>
+
+
+
+	</div>
+	<!-- scripts -->
+
+
+  </body>
+</html>
+<script src="static/js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>

@@ -1,0 +1,20 @@
+{
+  "name": "sw-vaisseaux",
+  "version": "1.0.0",
+  "description": "Laboratoire #1 du cours Web transactionnel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node node_modules/sass/sass.js src/sass/style.sass static/css/style.css"
+  },
+  "author": "Kim Lavoie",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.4.1"
+  }
+}
